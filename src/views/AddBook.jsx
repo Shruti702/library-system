@@ -76,9 +76,10 @@ const AddBook = () => {
           <textarea name="description" placeholder="Description" onChange={handleChange} />
         </div>
         <div className="form-group">
+            {/*Enables decimal inputs and enforces the rating range within the UI*/}
           <input type="number" name="rating" placeholder="Rating (0-5)" onChange={handleChange} step="0.1" min="0" max="5"/>
           {errors.rating && <span className="error">{errors.rating}</span>}
-        </div>
+        </div> 
         <button type="submit">Add Book</button>
       </form>
     </div>
