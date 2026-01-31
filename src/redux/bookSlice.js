@@ -4,11 +4,11 @@ import { dummyBooks } from '../utils/mockData';
 const booksSlice = createSlice({
   name: 'books',
   initialState: {
-    books: dummyBooks, // Initialize with dummy data 
+    books: dummyBooks, // Initialized with dummy data.
   },
   reducers: {
     addBook: (state, action) => {
-      state.books.unshift(action.payload); // Add new book to state 
+      state.books.unshift(action.payload); //Added new book to state .
     },
   },
 });
