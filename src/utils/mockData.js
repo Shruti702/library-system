@@ -1,0 +1,66 @@
+export const dummyBooks = [
+  {
+    id: 1, //Unique ID used for routing to details page.
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    category: "Fiction", //Category used for filtering logic.
+    description: "A novel set in the Jazz Age...",
+    rating: 4.5, 
+  },
+  {
+    id: 2,
+    title: "Sapiens",
+    author: "Yuval Noah Harari",
+    category: "Non-Fiction",
+    description: "A brief history of humankind...",
+    rating: 4.8,
+  },
+  {
+    id: 3,
+    title: "Dune",
+    author: "Frank Herbert",
+    category: "Sci-Fi",
+    description: "A science fiction saga set on Arrakis...",
+    rating: 4.9,
+  },
+  {
+    id: 4,
+    title: "1984",
+    author: "George Orwell",
+    category: "Fiction",
+    description: "Dystopian social science fiction...",
+    rating: 4.4,
+  },
+  {
+    id: 5,
+    title: "Twisted Lies",
+    author: "Ana Huang",
+    category: "Romance",
+    description: "Every monster has their weakness....",
+    rating: 4.2,
+  },
+  {
+    id: 6,
+    title: "Frankenstine",
+    author: "Mary Wollstonecraft Shelley",
+    category: "Sci-Fi",
+    description: "When a creation becomes a monster....",
+    rating: 4.0,
+  },
+   {
+    id: 7,
+    title: "Reminders of Him",
+    author: "Colleen Hover",
+    category: "Romance",
+    description: "A future out of hope and healing....",
+    rating: 4.6,
+  },
+  {
+    id: 8,
+    title: "Molly's Game",
+    author: "Molly Bloom",
+    category: "Non-Fiction",
+    description: "A look into high-stakes poker....",
+    rating: 4.4,
+  },
+];
