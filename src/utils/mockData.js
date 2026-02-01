@@ -69,7 +69,7 @@ export const dummyBooks = [
     author: "James Clear",
     category: "Non-Fiction",
     description: "An easy way to build good habits...",
-    rating: 4.9,
+    rating: 4.1,
   },
   {
     id: 10,

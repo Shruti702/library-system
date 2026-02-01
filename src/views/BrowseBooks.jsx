@@ -8,11 +8,11 @@ const BrowseBooks = () => {
   const [searchTerm, setSearchTerm] = useState(""); //Search state.
   //Filter logic.
   const filteredBooks = books.filter((book) => {
-    // eslint-disable-next-line no-unused-vars
     const matchesCategory = category ? book.category === category : true; // If category param exists, filter by it.
-    // eslint-disable-next-line no-unused-vars
     const matchesSearch = book.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           book.author.toLowerCase().includes(searchTerm.toLowerCase()); //Search Title or Author.
+    
+    return matchesCategory && matchesSearch;
   });
 
   return (
